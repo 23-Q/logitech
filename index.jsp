@@ -17,36 +17,36 @@
 		
 			/*------------top scroll menu---------------*/
 		
-		 $(function(){
-			var vi = 30;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-			$(window).scroll(function(){
-			var num = $(window).scrollTop();
-          if( num > vi ){
+	$(function(){
+		var vi = 30;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+		$(window).scroll(function(){
+		var num = $(window).scrollTop();
+        	  if( num > vi ){
                 $(".scrollmenu").fadeIn(220);
-           }else{
+       		  }else{
                 $(".scrollmenu").fadeOut(0);}    
 		});    
 	});
 	
 	$(function(){
-			var vi = 30;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-			$(window).scroll(function(){
-			var num = $(window).scrollTop();
-          if( num < vi ){
+		var vi = 30;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+		$(window).scroll(function(){
+		var num = $(window).scrollTop();
+         	 if( num < vi ){
                 $(".scroll_top_menu").fadeIn(0);
-           }else{
+           	}else{
                 $(".scroll_top_menu").fadeOut(0);}    
 		});    
 	});
 	
 	
 	$(function(){
-			var vi = 15;  // 하단에 메뉴 표시할 스크롤 위치값 지정
-			$(window).scroll(function(){
-			var num = $(window).scrollTop();
-          if( num < vi ){
+		var vi = 15;  // 하단에 메뉴 표시할 스크롤 위치값 지정
+		$(window).scroll(function(){
+		var num = $(window).scrollTop();
+          	if( num < vi ){
                 $(".right_toggle_menu  .top_blank").fadeIn(0);
-           }else{
+        	}else{
                 $(".right_toggle_menu  .top_blank").fadeOut(0);}    
 		});    
 	});
@@ -54,7 +54,7 @@
 		/*------------BX slider---------------*/
 		
 	$(document).ready(function(){
-    $('.main_slider').bxSlider({
+	    $('.main_slider').bxSlider({
 		minSlides: 1,
 		maxSlides: 1,
 		moveSlides: 1,
@@ -64,7 +64,7 @@
 		nextText: '<div class="main_slider_next"></div>',
 		prevText: '<div class="main_slider_prev"></div>',
 		pager: false
-	});
+		});
 	});
 	
 	
