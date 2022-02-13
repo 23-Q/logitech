@@ -13,10 +13,6 @@
 			<script type="text/javascript" src="/portfolio/lib/js/list.js"></script>
 			<script type="text/javascript" src="/portfolio/lib/js/chat.js"></script>
 			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	  
-			<style type="text/css">
-			</style> 
-		  
 		<script type="text/javascript">	
 		
 			/*------------top scroll menu---------------*/
@@ -74,7 +70,7 @@
 	
 	
 	$(document).ready(function(){
-    $('.news_slider').bxSlider({
+	    $('.news_slider').bxSlider({
 		minSlides: 1,
 		maxSlides: 3,
 		slideWidth: 380,
@@ -85,12 +81,9 @@
 		nextText: '<div class="news_slider_next"></div>',
 		prevText: '<div class="news_slider_prev"></div>',
 		pager: false
-	});
+		});
 	});
 	
-	
-  
-  
    /*메뉴박스 토글*/
 	$(document).ready(function(){
 			$(".wrapper").click( function() {
@@ -101,7 +94,7 @@
 	
 	/*-----------------right_toggle_menu---------------*/
 		
-			$(document).ready(function(){
+	$(document).ready(function(){
         $(".wrapper").click(function(){
             var submenu = $(".top").children(".right_toggle_menu");
             if( submenu.is(":visible") ){
@@ -109,7 +102,7 @@
             }else{
                 submenu.slideDown(200);
             }
-		});
+	});
 	});
 	    </script>
 		
