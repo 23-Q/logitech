@@ -149,7 +149,8 @@
 			</div>
 			<div class="tm_right">
 				<div class="login_join" style="margin-top: 15px;">
-					<a href="/portfolio/module/join.jsp"><span>Join</span></a>	<a href="/portfolio/module/login.jsp"><span>Login</span></a>
+					<a href="/portfolio/module/join.jsp"><span>Join</span></a>	
+					<a href="/portfolio/module/login.jsp"><span>Login</span></a>
 				</div>
 			</div>
 			<div class="menu_toggle_box_scroll">
@@ -244,7 +245,8 @@
 								<div class="tm_sns_i youtube_i"></div>
 							</div>
 							<div class="login_join">
-								<a href="/portfolio/module/join.jsp"><span>Join</span></a>	<a href="/portfolio/module/login.jsp"><span>Login</span></a>
+								<a href="/portfolio/module/join.jsp"><span>Join</span></a>	
+								<a href="/portfolio/module/login.jsp"><span>Login</span></a>
 							</div>
 						</div>
 						<div class="menu_toggle_box">
@@ -435,14 +437,10 @@
 									소장 가치가 높은 배틀필드™ V(Battlefield™ V) 기어 제품군을 발표했습니다. 리미티드 에디션 PC 
 									게이밍 기어는 로지텍 G 및 EA 경품 및 상품으로만 제공됩니다.</div>
 								</div>
-							</div>
-											
-						</div>
-									
+							</div>				
+						</div>			
 					</div>
-							
 				</div>
-
 			</div>
 		</div>
 				
@@ -456,11 +454,8 @@
 			<jsp:include page="/portfolio/module/logi_chat.jsp" flush="true"></jsp:include>
 		</div>
 		
-	</div>
-			
-			
+	</div>		
 </body>
-		
 </html>
 		  
 		  
