@@ -1,0 +1,76 @@
+﻿			
+			
+			
+	.content_line {
+		width: 100%;
+		height: auto;
+		}
+								
+	/*---------------------------------top_button (include)----------------------------------*/
+			
+			
+													
+
+	/*---------------------------------as service data----------------------------------*/
+				
+				
+	.as_service_data {
+			max-width: 1200px;
+			height: auto;
+			margin: 0 auto;
+			}
+												
+	.as_service_button {
+		font-family:"Regular";, Dotum color:; font-size: 16px;
+		line-height: 39px;
+		text-align: center;
+		color: white;
+		width: 30%;
+		height: 40px; 
+		margin: 0 auto;
+		background-color: #bbbbbb;
+		border-radius: 5px;
+		transition: 0.25s;
+		cursor: pointer;
+		}
+											
+	.as_service_button:hover {
+		background-color: #009fe3;
+		}
+												
+	.as_service_text {
+		font-family:"Regular";, Dotum color:; font-size: 15px;
+		line-height: 25px;
+		color: #777777;
+		width: 85%;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 50px;
+		}
+												
+												
+	.as_service_text span {
+		font-family:"Medium";, Dotum color:; font-size: 17px;
+		line-height: 50px;
+		color: #009fe3;
+		margin-left: -10px;
+		}
+													
+		/*--------------------------반응형-------------------------*/											
+	
+	@@media screen and (max-width:1200px){
+	}
+	
+	
+	@media screen and (max-width:500px){
+		.as_service_button {width: 130px;}
+		
+	}
+
+
+
+
+
+								
+													
+													

@@ -1,0 +1,475 @@
+﻿
+
+		/*---------------------------------------------------Layout--------------------------------------------------*/
+		
+	html, body { margin: 0; padding: 0; /*height:100%; */background-color: #eeeeee; } /*여백 제거*/
+			
+	/*.bottom_down { position:relative;} /*bottom 맨 아래에 위치 html, body { margin: 0; padding: 0; height:100%;  와 같이 써야함*/
+		
+	a { text-decoration: none; }
+		
+	.scrollmenu {
+		width:100%;
+		height: 50px;
+		background-color: rgba(255,255,255,0.95);
+		position: fixed;
+		z-index: 3;
+		display: none;
+		}
+		
+	.scroll_top_menu {
+		width:100%;
+		height: 80px;
+		background-color: rgba(255,255,255,0.95);
+		}
+
+		
+	.page_all {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		}
+		
+	.top {
+		width: 100%;
+		height: 80px;
+		background-color: rgba(255,255,255,0.95);
+		}
+
+	.middle {
+		width: 100%;
+		height: auto;
+		background-color: #eeeeee;
+		}
+
+	.bottom {
+		width: 100%;
+		height: auto;
+		background-color: #333333;
+		padding-top: 2px;
+		}
+		
+	/*---------------------------------------------오른쪽 슬라이드 메뉴-----------------------------------------------*/
+	.right_toggle_menu {
+		width: 300px;
+		height: auto;
+		right: -300px;
+		top: 50px;
+		position: fixed;
+		display: none;
+		z-index: 4;
+		}
+		
+	.right_toggle_menu  .top_blank { width: 100%; height: 0px; margin-top: 30px; }
+	.right_toggle_menu  .data { width: 100%; height: auto; background-color: rgba(255,255,255,0.95); }
+	
+		
+
+	/*----------------------------------------------------list-----------------------------------------------------*/
+					
+
+	.right_toggle_menu .list_title {/*상위메뉴*/
+		width: 100%;
+		height: 50px;
+		font-family:"Regular";, Dotum; color:#555555; font-size:18px; text-align:left; line-height:50px;
+		text-indent:16px;
+		border-bottom:1px #dddddd solid;
+		cursor: pointer;
+		}
+	
+										
+	.right_toggle_menu .list_data {/*하위메뉴*/
+		width: 50%;
+		height: 40px;
+		font-family:"Regular";, Dotum; color:#555555; font-size:15px; text-align:left; line-height:40px; letter-spacing:0.2px;
+		text-indent: 22px;
+		border-bottom: 1px #dddddd solid;
+		cursor: pointer;
+		float: left;
+		}
+
+	.right_toggle_menu .list_title, .right_toggle_menu .list_data, .right_toggle_menu .list_title:hover, .right_toggle_menu .list_data:hover
+	{ transition: 0.2s; }
+
+	.right_toggle_menu .list_title:hover {background-color:#f7f7f7; color: #009fe3; }
+									
+	.right_toggle_menu .list_data:hover {background-color:#f7f7f7; color: #009fe3; }
+
+												
+									
+	.list_home .list_data:hover {background-color:#999999;}
+								
+	.list_hide { display:none; overflow: hidden;} /*하위 리스트 숨김*/
+		
+		
+	.right_toggle_menu .list_point { /*펼치는 화살표*/
+		width: 7px;
+		height: 11px;
+		float: right;
+		margin-top: 20px;
+		margin-right: 15px;
+		background-image: url("/admin/data/img/list/list_point_off.png"); 
+		background-position: center; background-repeat: no-repeat; background-size: 7px 11px;
+		}				
+		  
+	.right_toggle_menu .list_point.switching {	/*접는 화살표*/
+		width: 11px;
+		height : 7px;
+		margin-top: 22px;
+		margin-right: 12px;
+		background-image: url("/admin/data/img/list/list_point_on.png"); 
+		background-position: center; background-repeat: no-repeat; background-size: 11px 7px;
+		}
+		
+	/*--------------------------------------------오른쪽 슬라이드 하단 (로그인, SNS 아이콘)-----------------------------------------------*/		
+	.right_toggle_menu_bottom {
+		width: 100%;
+		height: 100px;
+		}
+		
+	.login_i {
+		width: 27px;
+		height: 30px;
+		float: left;
+		margin-top: 45px;
+		margin-left: 21px;
+		transition: 0.18s;
+		cursor: pointer;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url("/portfolio/data/img/index/login_black.png"); background-size: 100% 100%;
+		}
+	
+	.login_i:hover { background-image: url("/portfolio/data/img/index/login_color.png"); }
+	
+	.right_toggle_menu_bottom .tm_sns {
+		width: 210px;
+		height: 45px;
+		float: right;
+		margin-right: 7px;
+		margin-top: 32px;
+		/*background-color: white;*/
+		}
+		
+		.right_toggle_menu_bottom .tm_sns_i { /*sns 아이콘 통합*/
+			width: 38px;
+			height: 35px;
+			cursor: pointer;
+			float: left;
+			margin-left: 12px;
+			background-position: center;
+			background-repeat: no-repeat;
+			transition: 0.18s;
+			}
+			
+		.right_toggle_menu_bottom .facebook_i { background-image: url("/portfolio/data/img/sns_icon/facebook_black.png"); background-size: 30px 30px; }
+		.right_toggle_menu_bottom .twitter_i { background-image: url("/portfolio/data/img/sns_icon/twitter_black.png"); background-size: 30px 27px; }
+		.right_toggle_menu_bottom .instar_i { background-image: url("/portfolio/data/img/sns_icon/instar_black.png"); background-size: 30px 30px; margin-right: 5px;}
+		.right_toggle_menu_bottom .youtube_i { background-image: url("/portfolio/data/img/sns_icon/youtube_black.png"); background-size: 38px 28px;}
+
+
+	/*---------------------------------------------------top--------------------------------------------------*/
+			
+	.top_menu {
+		max-width: 1200px;
+		height: 100%;
+		margin: 0 auto;
+		position: relative;
+		}
+
+	
+	.tm_left,.tm_left_scroll {	/*왼쪽 상단 로고*/
+		width: 200px;
+		height: 100%;
+		float: left;
+			background-image: url("/portfolio/data/img/module/login/logitech_logo_login.png"); 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 160px 40.5px;
+		}
+		
+
+	.tm_left_scroll {
+		background-image: url("/portfolio/data/img/module/login/logitech_logo_login.png"); 
+		background-size: 120px 30px;
+		}
+		
+	.tm_middle {	/*메뉴 중간*/
+		max-width: 460px;
+		height: 100%;
+		float: left;
+		position: absolute;
+		left: 50%;
+		margin-left: -225px;
+		}
+			
+	.tm_right {	/*메뉴 오른쪽*/
+		width: 200px;
+		height: 100%;
+		float: right;
+		}
+		
+		
+		
+	.tm_sns {	/*top mune sns 영역*/
+		width: 160px;
+		height: 45px;
+		float: right;
+		margin-right: 7px;
+		}
+	
+	.tm_sns_i { /*sns 아이콘 통합*/
+		width: 30px;
+		height: 30px;
+		cursor: pointer;
+		float: left;
+		margin-top: 10px;
+		margin-left: 7px;
+		background-position: center;
+		background-repeat: no-repeat;
+		transition: 0.18s;
+		}
+		
+		
+	.facebook_i { background-image: url("/portfolio/data/img/sns_icon/facebook_black.png"); background-size: 25px 25px; }
+	.twitter_i { background-image: url("/portfolio/data/img/sns_icon/twitter_black.png"); background-size: 25px 22px; }
+	.instar_i { background-image: url("/portfolio/data/img/sns_icon/instar_black.png"); background-size: 25px 25px; }
+	.youtube_i { background-image: url("/portfolio/data/img/sns_icon/youtube_black.png"); background-size: 30px 22px; margin-left: 10px;}
+		
+	.facebook_i:hover { background-image: url("/portfolio/data/img/sns_icon/facebook_color.png"); }
+	.twitter_i:hover { background-image: url("/portfolio/data/img/sns_icon/twitter_color.png"); }
+	.instar_i:hover { background-image: url("/portfolio/data/img/sns_icon/instar_color.png"); }
+	.youtube_i:hover { background-image: url("/portfolio/data/img/sns_icon/youtube_color.png"); }
+		
+		
+		
+	.login_join { /*로그인, 회원가입 영역*/
+		width: 100%;
+		height: 35px;
+		float: left;
+		}
+		
+	.tm_right span {	/*로그인, 회원가입*/
+		font-family:"Regular";, Dotum color:; font-size: 14px;
+		color: #555555;
+		margin-right: 20px;
+		line-height: 15px;
+		float: right;
+		cursor: pointer;
+		}
+		
+	.tm_right span:hover {
+		color: #009fe3;
+		transition: 0.3s;
+		}
+		
+	.menu { /*메뉴 텍스트 항목*/
+		width: auto;
+		height: 50px;
+		margin-top: 30px;
+		}
+	
+	.menu span {
+		font-family:"Regular";, Dotum color:; font-size: 15px;
+		line-height: 45px;
+		color: #333333;
+		margin-left: 35px;
+		float: left;
+		cursor: pointer;
+		}
+			
+	.menu span:hover {
+		color: #009fe3;
+		transition: 0.3s;
+		border-bottom: 3px solid #009fe3;
+		}
+	
+
+	
+	.menu_toggle_box, .menu_toggle_box_scroll {
+		width: 45px;
+		height: 40px;
+		/*background-color: black;*/
+		position: absolute;
+		z-index: 5;
+		top: 20px;
+		right: 20px;
+		border-radius: 5px 5px 5px 5px;
+		display: none;
+		cursor: pointer;
+		}
+		
+		
+	.menu_toggle_box_scroll {
+		top: 5px;
+		}
+
+		
+
+		
+	/*----------------------------------토글 메뉴 박스-----------------------------*/
+	
+	.wrapper {
+		display:inline-block;
+		border-radius: 5px;
+		position: relative;
+		padding: 5px;
+		cursor:pointer;
+	}
+	
+	
+
+	.main-item {
+		width: 35px;
+		height: 30px;
+		position: relative;
+	}
+
+	.ham_line {
+		position: absolute;
+		height: 4px;
+		width: 100%;
+		border-radius: 2px;
+		background: #009fe3;
+		transition: all cubic-bezier(0.25, 0.1, 0.28, 1.54) 0.32s;
+	}
+
+	.line01 {
+		top:17%;
+	}
+
+	.line02 {
+		top:49%;
+	}
+
+	.line03 {
+		top:81%;
+	}
+
+	.ham_menu_main.close .line01 {
+		transform:rotate(45deg);
+		top:49%;
+	}
+
+	.ham_menu_main.close .line02, .ham_menu_main.close .line03 {
+		transform:rotate(-45deg);
+		top:49%;
+	}
+		
+		
+		
+		
+
+	
+		
+		/*---------------------------------------------------drop down menu--------------------------------------------------*/
+		
+	.drop_down {
+		width: auto;
+		float: left;
+		margin-left: 35px;
+		}
+			
+	.drop_down span { margin-left: 0px; }
+			
+	.drop_down_data {
+		width: 100px;
+		height: auto;
+		background-color:  rgba(255,255,255,0.95);
+		padding-top: 5px;
+		padding-bottom: 5px;
+		margin-top: 48px;
+		display: none;
+		position: absolute;
+		z-index: 1;
+		overflow: hidden;
+		}
+		
+	.drop_down_data div {
+		font-family:"Light";, Dotum color:; font-size: 14px;
+		text-indent: 10px;
+		color: #333333;
+		line-height: 25px;
+		width: 100%;
+		heigth: 25px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		cursor: pointer;
+		}
+		
+	.drop_down_data div:hover {
+		font-family:"Regular";, Dotum color:; font-size: 14px;
+		color: #009fe3;
+		border-left: 3px solid #009fe3;
+		transition: 0.3s;
+		}
+			
+	.drop_down:hover .drop_down_data{ display: block; }
+		
+		
+	.drop_down:hover span {
+		color: #009fe3;
+		transition: 0.35s;
+		border-bottom: 3px solid #009fe3;
+		}
+		
+
+		
+		/*---------------------------------------------------middle--------------------------------------------------*/
+		
+
+		
+		/*---------------------------------------------------bottom css--------------------------------------------------*/
+		
+		/*--------------------------------------------------responsive----------------------------------------------*/
+	
+	@media screen and (max-width:1300px){
+		.tm_right { margin-right: 30px; }
+		.tm_left { margin-left: 30px; }
+	}
+	
+	
+	@media screen and (max-width:1200px){
+		.top_menu { width: 100%; }
+	}
+	
+	@media screen and (max-width:950px){
+		.scrollmenu { overflow: hidden; }
+		
+		.tm_left,.tm_left_scroll {
+			background-position: 68%;
+			margin: 0 auto;
+			float: none;
+			width: 200px;
+			}
+			
+		.right_toggle_menu { right: 0px; }
+		
+		.menu,.tm_right { display: none; }
+		.menu_toggle_box_scroll,.menu_toggle_box { display: block; }
+	}
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			

@@ -1,0 +1,158 @@
+	
+	
+	.board_write .title {
+		font-family: "Regular"; font-size: 22px; color: #009fe3;
+		text-align: center;
+		width: 1000px;
+		height: 50px;
+		margin: 0 auto;
+		}
+		
+	.write_select {
+		font-family: "Regular"; font-size: 15px; color: #333333;
+		line-height: 40px;
+		width: 200px;
+		height: 40px;
+		background-color: #dddddd;
+		border: 1px solid #999999;
+		padding-left: 10px;
+		float: left;
+		cursor: pointer;
+		}
+		
+	.board_write .button {
+		font-family: "Regular"; font-size: 15px; color: #333333;
+		line-height: 40px;
+		width: 100px;
+		height: 40px;
+		background-color: #d5d5d5;
+		float: right;
+		cursor: pointer;
+		transition: 0.1s;
+		}
+		
+	.board_write .close {
+		margin-right: 10px;
+		}
+		
+	.board_write .button:hover {
+		background-color: #bbbbbb;
+		color: white;
+		transition: 0.1s;
+		}
+		
+	.board_write .top {
+		width: 1000px;
+		height: auto;
+		margin: 0 auto;
+		padding-right: 4px;
+		}
+		
+	.board_write .text_title {
+		font-family: "Regular"; font-size: 14px; color: #555555;
+		width: 100%;
+		height: 40px;
+		text-indent: 10px;
+		}
+	
+	.board_write .content_line {
+		width: 100%;
+		height: auto;
+		padding-bottom: 50px;
+		}
+	
+	.board_write .Editor {
+		width: 1003px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 5px;
+		}
+		
+	.Editor div {
+		width: 100%;
+		height:100%;
+		background-color: white;
+		}
+		
+	.popContent {
+		width: 994px;
+		height: 350px;
+		}
+		
+	.re_textarea {
+		font-family: "Regular"; font-size: 14px; color: #555555;
+		width: 94.5%;
+		height: 350px;
+		display: none;
+		margin: 0 auto;
+		resize: none;
+		}
+		
+	.board_write .add_file {
+		width: 1000px;
+		height: 75px;
+		margin: 0 auto;
+		margin-top: -5px;
+		border: 1px solid #bbbbbb;
+		background-color: white;
+		font-family: "Regular"; font-size: 16px; color: #999999;
+		line-height: 75px;
+		text-align: center;
+		cursor: pointer;
+		}
+		
+	.board_write .add_file:hover {
+		background-color: #dddddd;
+		color: #777777;
+		}
+	
+	.add_file label {
+		width: 100%;
+		height: 100%;
+		float: left;
+		cursor: pointer;
+		}
+	
+	.add_file input[type="file"] {
+		display: none;
+		}
+	
+	.board_write .bottom {
+		width: 100%;
+		height: 80px;
+		background-color: none;
+		}
+		
+	.board_write .qna_top {
+		margin-top: 50px;
+		}
+	
+	
+	@media screen and (max-width:1000px){
+		.board_write .title { width: 95%; }
+		.board_write .top { width: 95%; }
+		.board_write .add_file { width: 95%; margin-top: -1px;}
+		.board_write .Editor { width: 95%; }
+		.board_write .Editor div { width: 100%; display: none; }
+		.re_textarea { display: block; }
+	}
+	
+	@media screen and (max-width:800px) {
+
+	}
+	
+	@media screen and (max-width:500px){
+		.board_write .title { width: 90%; }
+		.board_write .button { width: 80px; }
+		.board_write .top { width: 90%; }
+		.board_write .add_file { width: 90%; }
+		.re_textarea { width: 89%; }
+	}
+	
+	
+	
+	
+		
+		
+		
+		

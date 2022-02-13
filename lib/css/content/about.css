@@ -1,0 +1,310 @@
+﻿
+
+		/*---------------------------------------------------layout--------------------------------------------------*/
+					
+					
+					
+	.content_line_main {
+		width: 100%;
+		height: 450px;
+		text-align: center;
+		padding-top: 250px;
+		background-color: black;
+		background-image: url("/portfolio/data/img/content/about/content_line_main_image.png"); 
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		}
+					
+					
+					
+		.content_line, .content_line_tech {
+			width: 100%;
+			height: auto;
+			text-align: center;
+			padding-top: 90px;
+			background-color: #fdfdfd;
+			}
+				
+				
+				/*---------------------------------------------------sponsor------------------------------------------------------*/
+				
+				
+		.about_sponsor_close { /*후원팀 닫힘*/
+			font-family:"Regular"; font-size: 18px; color: white;
+			line-height: 45px;
+			width: 100%;
+			height: 70px;
+			background-color: #009fe3;
+			text-align: center;
+			cursor: pointer;
+			transition: 0.25s;
+			}
+											
+		.about_sponsor_close:hover {
+			background-color: #005a9e;
+			transition: 0.25s;
+			}
+													
+		.about_sponsor_point {	/*밑으로 내리는 화살표*/
+			margin: 0 auto;
+			margin-top: 0px;
+			width: 30px;
+			height: 12px;
+			background-image: url("/portfolio/data/img/content/about/about_sponsor_point.png"); 
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 30px 12px;
+			}
+													
+		.about_sponsor_point.switching { background-image: url("/portfolio/data/img/content/about/about_sponsor_point_close.png"); }
+																	
+		.about_sponsor_close.switching { background-color: #1e1e1e; }
+																	
+		.about_sponsor_close.switching:hover { background-color: #191919; }
+													
+													
+		.about_sponsor_open {	/*후원팀 열림*/
+			width: 100%;
+			height: auto;
+			background-color: #262626;
+			display: none;
+			padding-bottom: 80px;
+			}
+													
+		.about_sponsor_open_text {
+			font-family:"Light"; font-size: 17px;
+			line-height: 35px;
+			margin: 0 auto;
+			color: white;
+			text-align: center;
+			max-width: 620px;
+			height: auto;
+			padding-top: 80px;
+			}
+				
+		.sponsor_logo_location { /*스폰 로고 들어가는 영역*/
+			margin: 0 auto;
+			max-width: 800px;
+			height: auto;
+			overflow: hidden; /*정렬 안될때 */
+			/*background-color: #009fe3; */
+			margin-top: 80px;
+			}
+														
+		.s_logo
+			{
+			width: 25%;
+			height: 160px;
+			float: left;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 130px 130px;
+			}
+			
+			.l_01 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/01.png"); }
+			.l_02 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/02.png"); }
+			.l_03 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/03.png"); }
+			.l_04 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/04.png"); }
+			.l_05 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/05.png"); }
+			.l_06 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/06.png"); }
+			.l_07 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/07.png"); }
+			.l_08 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/08.png"); }
+			.l_09 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/09.png"); }
+			.l_10 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/10.png"); }
+			.l_11 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/11.png"); }
+			.l_12 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/12.png"); }
+			.l_13 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/13.png"); }
+			.l_14 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/14.png"); }
+			.l_15 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/15.png"); }
+			.l_16 { background-image: url("/portfolio/data/img/content/about/sponsor_logo/16.png"); }
+				
+				
+	/*---------------------------------------------------object--------------------------------------------------*/
+				
+		.content_line_main .about_box_title  {	/*타이틀*/
+			font-family:"Regular"; font-size: 35px;
+			color: rgba(0,0,0,0);
+			line-height: 80px;
+			animation: title_up 1.2s 0.5s 1 forwards;
+			}
+																			
+		.content_line_main .about_box_text {	/*타이틀 부분 텍스트*/
+			font-family:"Regular"; font-size: 19px;
+			color: rgba(0,0,0,0);
+			animation: text_up 1.5s 1.2s 1 forwards;
+			}
+			
+		
+		@keyframes title_up { 0%{ color: rgba(0,0,0,0); line-height: 140px; } 100%{ color: #009fe3; line-height: 80px;} }
+		@keyframes text_up { 0%{ color: rgba(0,0,0,0); } 100%{ color: white; } }
+			
+																			
+	.content_line_tech {
+			width: 100%;
+			height: auto;
+			background-color: #f5f5f5;
+			box-shadow: 0px 18px 30px -30px gray inset;
+			padding-bottom: 100px;
+			background-color: #222222;
+			}
+			
+	.content_line_tech .about_box { margin-bottom: 80px; }
+				
+				
+		.about_box {
+			margin: 0 auto;
+			max-width: 600px;
+			height: auto;
+			}
+									
+		.about_box_logo .about_box_text {	/*브랜드 설명부분 div*/
+			width: 50%;
+			height: 200px;
+			float: left;
+			text-align: left;
+			color: #555555;
+			font-size: 17px;
+			overflow: hidden;
+			}
+																		
+
+									
+		.about_box_logo {
+			margin: 0 auto;
+			max-width: 1200px;
+			height: auto;
+			overflow: hidden;
+			}
+										
+		.about_box_title {
+			font-family:"Regular"; font-size: 35px;
+			color: #009fe3;
+			line-height: 80px;
+			}
+				
+		.about_logo {
+			margin: 0 auto;
+			width: 290px;
+			height: 75px;
+				background-image: url("/portfolio/data/img/content/about/logitech_logo.png"); 
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 290px 75px;
+				}
+				
+		.about_box_text {
+			font-family:"Regular"; font-size: 16px;
+			line-height: 30px;
+			color: #aaaaaa;
+			}
+				
+				
+	/*--------------------------------------------------technology-------------------------------------------------*/
+				
+		.technology_location {
+			margin: 0 auto;
+			max-width: 1200px;
+			height: auto;
+			margin-top: 30px;
+			margin-bottom: 40px;
+			overflow: hidden;
+			background-color: #282828;
+			}
+													
+			.technology {
+				width: 33.3%;
+				height: auto;
+				float: left;
+				padding-bottom: 20px;
+				}
+					
+			.technology_image {
+				width: 100%;
+				padding-top: 65%; /*260px*/
+				background-color: black;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+				}
+													
+		.hero { background-image: url("/portfolio/data/img/content/about/technology/hero.png");  }
+		.lightspeed { background-image: url("/portfolio/data/img/content/about/technology/lightspeed.png");  }
+		.lightsync { background-image: url("/portfolio/data/img/content/about/technology/lightsync.png");  }										
+															
+		.technology_text_box {
+			width: auto;
+			height: auto;
+			background-color: #282828;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+			border-top: 1px solid #009fe3;
+			}
+														
+		.technology_title { 
+			font-family:"Medium"; font-size: 30px; color: #009fe3;
+			line-height: 40px;
+			width: 100%;
+			height: 55px;
+			text-align: center;
+			}
+												
+		.technology_text {
+			font-family:"Light"; font-size: 15.5px; color: #aaaaaa;
+			text-align: left;
+			width: 100%;
+			height: auto;
+			line-height: 35px;
+			}
+	
+
+	/*-----------------------------반응형--------------------------*/
+	
+	@media screen and (max-width:1200px){
+		.content_line_main { background-size: auto 100%; }
+		.about_box_logo .about_box_text { width: 90%; height: auto; text-align: center; margin-left:5%; margin-right: 5%; margin-bottom: 50px;}
+		.technology_title { font-size: 27px; }
+		.technology_text { font-size: 15px; line-height: 28px; }
+		
+	}
+			
+			
+	@media screen and (max-width:900px){
+		.s_logo { width: 33.3%; }
+		.technology_title { font-size: 22px; }
+		.technology_text_box { padding-left: 15px; padding-right: 15px;}
+	}
+	
+	@media screen and (max-width:700px){
+		.content_line_main { height: 300px; padding-top: 150px;}
+		.about_sponsor_open_text { padding-left: 30px; padding-right: 30px; }
+		.about_box { padding-left: 30px; padding-right: 30px; }
+		.about_box .about_box_text { font-size: 17px; }
+		.about_box .about_box_title { font-size: 28px; }
+		.technology_title { font-size: 27px; }
+		.technology { width:100%;}
+		.technology_text { font-size: 16px; line-height: 32px; }
+		.technology_text_box { padding-left: 30px; padding-right: 30px;}
+	}
+	
+	
+	@media screen and (max-width:500px){
+		.s_logo { width: 50%; }
+		.about_box_logo .about_box_text { font-size: 16px; }
+	}
+	
+									
+						
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												
+												

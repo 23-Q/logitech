@@ -1,0 +1,120 @@
+﻿	
+
+	/*----------------------------------------------------list-----------------------------------------------------*/
+
+	.list_all {
+		width: 100%;
+		height: auto;
+		min-height: 580px;
+		margin: 0 auto;
+		text-align: left;
+		float: left;
+		background-color: #3a3a3a;
+		}
+						
+
+											
+
+	.list_title { 	/*상위메뉴*/
+		width: 170px;
+		height: 42px;
+		background-color: white;
+		font-family:"Regular";, Dotum; color:#555555; font-size:16px; text-align:left; line-height:42px;
+		text-indent:16px;
+		border-bottom:1px #dddddd solid;
+		cursor: pointer;
+		}
+	
+														
+														
+		.list_data { 	/*하위메뉴*/
+			width: 170px;
+			height: 35px;
+			background-color: white;
+			font-family:"Regular";, Dotum; color:#555555; font-size:13px; text-align:left; line-height:32px; letter-spacing:0.2px;
+			text-indent: 22px;
+			border-bottom: 1px #dddddd solid;
+			cursor: pointer;
+			}
+
+		
+
+		.list_title:hover {background-color:#f7f7f7;}
+									
+		 .list_data:hover {background-color:#f7f7f7;}
+
+												
+									
+		.list_home .list_data:hover {background-color:#999999;}
+								
+		.list_hide { display:none; } /*하위 리스트 숨김*/
+		.list_hide_under {display:none;}  /*하위하위 리스트 숨김*/
+		
+		.list_title_color {float:left;}
+		
+		.list_data_color {float:left;}
+		
+		
+		
+		
+		
+		
+		
+		
+		/*----------------------------------------------------list point-----------------------------------------------------*/
+		
+		.list_point { /*펼치는 화살표*/
+			width: 7px;
+			height: 11px;
+			float: right;
+			margin-top: 17px;
+			margin-right: 15px;
+			background-image: url("/admin/data/img/list/list_point_off.png"); 
+			background-position: center; background-repeat: no-repeat; background-size: 7px 11px;
+			}				
+		  
+		.list_point.switching {	/*접는 화살표*/
+			width: 11px;
+			height : 7px;
+			margin-top: 18px;
+			margin-right: 12px;
+			background-image: url("/admin/data/img/list/list_point_on.png"); 
+			background-position: center; background-repeat: no-repeat; background-size: 11px 7px;
+			}
+												
+
+	
+	
+	
+			/*------------------------------------------------------------하위메뉴 list chack box---------------------------------------------------------*/
+			
+	.list_check {
+		width: 11px;
+		height: 11px;
+		float: right;
+		margin-top: 10px;
+		margin-right: 11px;
+		border: 1.5px solid #009fe3;
+		border-radius: 3px 3px 3px 3px;
+		}
+							
+	.list_check.switching {
+		background-color:  #009fe3;
+		}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+													
+													
+													
+													

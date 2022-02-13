@@ -1,0 +1,125 @@
+﻿
+/*--------------------------------------------------Layout---------------------------------------------------*/
+
+		.c_page_all {width:100%; height:100%; margin:0 auto; text-align:center;} /*페이지 전체*/
+		.chat_page {width:350px; height:600px; margin-top:-7.5px; margin-left:-7.5px; text-align:center; display: inline-block; 
+								background-color:#e5e5e5; position: relative;/*border:5px solid #7a7a7a;*/}	/*position: relative - 기준*/
+		.c_top {width:350.5px; height:40px; margin:0 auto;  text-align:left; display:inline-block; background-color:#009fe3; margin-left:-0.5px;
+					cursor:pointer;}
+		.c_middle {width:350px; height:480px; margin-top:-4px; text-align:center; display:inline-block; /*border:1px solid #e0e0e0; */overflow-x:hidden; overflow-y:auto;}
+		.c_bottom {width:350px; height:auto; margin-top:-5px; display: inline-block; background-color: #cccccc;	padding-bottom:12px; margin-bottom:-1px;
+						position: absolute;
+						left: 0;
+						right: 0;
+						bottom:0;}
+		
+/*--------------------------------------------------font---------------------------------------------------*/
+		.c_top span {font-family:"Regular";, Dotum; color:#fff; font-size:15.5px; float:left;
+				line-height:38px; margin-left:12px;}
+		.c_send {font-family:"Regular";, Dotum; color:#fff; font-size:13px; float:left;
+				line-height:25px;}
+		.c_answer {font-family:"Regular";, Dotum; color:#fff; font-size:13px; float:left; text-align:left;}
+		.c_question {font-family:"Regular";, Dotum; color:#757575; font-size:13px; float:left; text-align:left;}
+		.c_time {width:85px;
+								height:13px;
+								font-family:"Regular";, Dotum; color:#757575; font-size:10px; float:left; text-align:left;}
+		.c_qu_time {width:85px;
+							height:13px;
+							font-family:"Regular";, Dotum; color:#757575; font-size:10px; float:left; text-align:right;}
+		.c_read {width:85px;
+					height:13px;
+					font-family:"Regular";, Dotum; color:#757575; font-size:10px; float:left; text-align:left;} 
+		.c_qu_read {width:84px;
+					height:13px;
+					font-family:"Regular";, Dotum; color:#757575; font-size:10px; float:left; text-align:right; margin-right:1px;} 
+				
+/*--------------------------------------------------location---------------------------------------------------*/
+		.c_text_area {width:300; height:auto; margin-top:10px; margin-left:10px; float:left; display:inline-block;}	/*입령창 영역 div*/
+		.c_answer_location {width:338px; height:auto;display:inline-block;}
+		.c_question_location {width:338px; height:auto; display:inline-block;
+										 text-align:right;} 
+										 
+			.c_answer_time_location 
+			{
+			width:85px;
+			height:28px;
+			margin-left:8px;
+			margin-bottom:2px;
+			position:absolute; bottom:0px; right:-90px;
+			float:right;
+			display:inline-block;} 
+			
+			.c_question_time_location  
+			{
+			width:85px;
+			height:28px;
+			margin-bottom:2px;
+			margin-right:8px;
+			position:absolute; bottom:0px; left:-92px;
+			display:inline-block;} 
+				
+				
+/*--------------------------------------------------button-------------------------------------------------*/				
+		.c_close_button {width:18px; height:18px; float:right; background-image:url("/data/boram/chatting/close_x.png");
+								background-position: center; background-repeat: no-repeat; background-size:100%;
+								margin-top:10px; margin-right:11px;}
+		.c_send {width:45px; height:28px; float:right; background-color:#009fe3; margin-top:10px; margin-right:10px; border-radius: 5px;} 
+		
+/*----------------------------------------------------input---------------------------------------------------*/	
+
+		.c_text_area textarea {width:255px; height:50px; border-radius:5px; float:left; overflow-x:hidden;overflow-y:auto; 
+												font-family:"Light";, Dotum; color:#black; font-size:13px;
+												padding-top:5px; padding-left:10px; padding-right:10px;}	
+		.c_text_area textarea {outline-style:none; border:1px #b2b2b2 solid;}
+		
+/*----------------------------------------------------talk---------------------------------------------------*/
+
+		.c_talk_blank {width:340px;	height:15px;}
+			
+		
+		.c_answer {	
+						width:auto;
+						height:auto; 
+						background-color:#aaaaaa;
+						margin-left:10px;
+						padding-top:6px;
+						padding-bottom:6px;
+						padding-left:12px;
+						padding-right:12px;
+						border-radius: 5px;
+						max-width:200px;	
+						float:left;
+						position:relative;
+					}
+		
+		.c_question {		width:auto;
+							height:auto; 
+							background-color:#ffffff;
+							margin-right:10px;
+							padding-top:6px;
+							padding-bottom:6px;
+							padding-left:12px;
+							padding-right:12px;
+							border-radius: 5px;
+							max-width:200px;
+							float:right;
+							position:relative;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

@@ -1,0 +1,95 @@
+
+
+
+
+
+	.support_content_icon {	/*support 아이콘 영역*/
+		max-width: 1000px;
+		height: auto;
+		margin: 0 auto;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		text-align: center;
+		-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml -user-select: none; user-select:none;
+		overflow: hidden;
+		}
+													
+	.as_service_icon_1, .as_service_icon_2, .as_service_icon_3, .as_service_icon_4 {
+			width: 22%;
+			height: 220px;
+			background-color: #009fe3;
+			float: left;
+			margin-left: 1.2%;
+			margin-right:1.2%;
+			border-radius: 5px;
+			transition: 0.15s;
+			cursor: pointer;
+				background-position: center;
+				background-repeat: no-repeat;
+			}
+	.as_service_icon_1 { margin-left: 2.4%; }
+	.as_service_icon_4 { margin-right:2.4%; }
+		
+																																		
+	.as_service_icon_1 {
+		background-image: url("/portfolio/data/img/include/support_top_button/as_service_icon.png"); 
+		background-size: 90px 95px;
+		}
+			
+	.as_service_icon_2 {
+		background-image: url("/portfolio/data/img/include/support_top_button/software_download_icon.png"); 
+		background-size: 75px 75px;
+		}
+			
+	.as_service_icon_3 {
+		background-image: url("/portfolio/data/img/include/support_top_button/icon_3.png"); 
+		background-size: 92px 92px;
+		}
+			
+	.as_service_icon_4 {
+		background-image: url("/portfolio/data/img/include/support_top_button/icon_4.png"); 
+		background-size: 80px 98px;
+		}
+	
+
+	.as_service_icon_1:hover, .as_service_icon_2:hover, .as_service_icon_3:hover, .as_service_icon_4:hover {
+		background-color: #35bfef;
+		}
+																																													
+																																													
+	.icon_text {
+		font-family:"Regular";, Dotum color:; font-size: 14px;
+		color: white;
+		margin-top: 177px;
+		}
+	
+	
+	
+	@media screen and (max-width:500px){
+		
+		.support_content_icon { margin-top: 50px; margin-bottom: 50px; }
+		
+		.as_service_icon_1, .as_service_icon_2, .as_service_icon_3, .as_service_icon_4 {
+			width: 90%;
+			height: 50px;
+			margin-left: 5%;
+			margin-right: 5%;
+			margin-top: 15px;
+				background-position: 5%;
+				background-repeat: no-repeat;
+			}
+		.as_service_icon_1 { background-size: 40px 40px; }
+		.as_service_icon_2 { background-size: 40px 40px; }
+		.as_service_icon_3 { background-size: 40px 40px; }
+		.as_service_icon_4 { background-size: 33px 40px; }
+		
+		.icon_text { 
+			font-size: 18px;
+			margin-top: 11px;
+			}
+	}
+																																													
+																																													
+																																													
+																																													
+									

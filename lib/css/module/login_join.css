@@ -1,0 +1,152 @@
+﻿
+
+						/*---------------------------------------------------Layout--------------------------------------------------*/
+
+		html, body { margin: 0; padding: 0;background-color: #eeeeee; }
+			
+			
+		.page_all {
+			width: 100%;
+			height: 100%;
+			text-align: center;
+			}
+							
+		.bottom {
+			width: 100%;
+			height: auto;
+			background-color: #333333;
+			padding-top: 2px;
+			margin-top: 180px;
+			}
+
+		.login_page {
+			width: 350px;
+			height: auto;
+			margin: 0 auto;
+			text-align: center;
+			display: inline-block; 
+			background-color: white;
+			margin-top: 65px;
+			padding-bottom: 85px;
+			border-radius: 3px;
+			}
+								
+						
+			.top {
+				width:350px;
+				height: auto;
+				margin:0 auto;
+				text-align:center;
+				display: inline-block;
+				}
+								
+			.middle  {
+				width:350px;
+				height:300px;
+				margin:0 auto;
+				text-align:center;
+				display: inline-block;
+				}
+
+						
+				/*--------------------------------------------------top---------------------------------------------------*/
+
+				.logo {
+					width:300px;
+					height:82px;
+					float:left;
+					margin:0 auto;
+					background-image: url("/portfolio/data/img/module/login/logitech_logo_login.png"); 
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: 160px 42px;
+					margin-top:50px;
+					margin-left:32px;
+				}
+									
+				/*--------------------------------------------------middle---------------------------------------------------*/					
+				
+				.id_line {
+							width: 100%;
+							height: 47px;
+							margin-top:40px;
+							margin-left:3px;
+							}
+							
+				.passward_line {
+											width: 100%;
+											height: 47px;
+											margin-top: 25px;
+											margin-left:3px;
+										}
+				
+				
+				/*--------------------------------------------------button---------------------------------------------------*/
+
+						.login_button {
+												width:280px;
+												height:45px;
+												margin:0 auto;
+												background-color:#009fe3; 
+												border-radius: 3px;
+												margin-top:40px;
+												cursor: pointer;
+												transition: 0.15s;
+												}
+						.login_button:hover { background-color:#1371b7;
+													}
+					
+				/*---------------------------------------------------font----------------------------------------------------*/
+
+						.login_button {
+												font-family:"Regular";, Dotum; color:white; font-size:15px;
+												line-height:45px;
+												border-style: none;
+												}
+						
+				/*----------------------------------------------------input-----------------------------------------------------*/
+				
+						.middle input[type=text] {
+																	width: 280px;
+																	height: 40px;
+																	border-radius: 3px;
+																	font-family: "Regular";, Dotum; color:#8c8c8c;font-size:15px;
+																	text-indent: 7px;
+																	background-color: #f3f3f3;
+																	outline-style:none;
+																	border: 1px #b2b2b2 solid;
+																	}
+																	
+						.middle input[type=text]:focus { border: 2px #009fe3 solid; }
+																		
+						.middle input[type=password] {
+																			width: 280px;
+																			height: 40px;
+																			border-radius: 3px;
+																			font-family:"Regular";, Dotum; color:#8c8c8c;font-size:15px;
+																			text-indent:7px;
+																			background-color: #f3f3f3;
+																			outline-style: none;
+																			border: 1px #b2b2b2 solid;
+																			}	
+
+						.middle input[type=password]:focus {border: 2px #009fe3 solid} 
+						
+						
+						
+						
+						
+						
+						.bottom-text{
+											font-family:"Regular";, Dotum; color:#8c8c8c;font-size:13px;
+											margin-top: 60px;
+											text-align: center;
+											}
+											
+						
+						.bottom-text a {
+												font-family:"Regular";, Dotum; color:#009fe3;font-size:13px;
+												text-decoration:none;
+												margin-left: 3px;
+												}
+												

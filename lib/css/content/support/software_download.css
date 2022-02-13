@@ -1,0 +1,267 @@
+			
+			
+	.content_line {
+		width: 100%;
+		height: auto;
+		}
+			
+	.software_download_top {
+		max-width: 990px;
+		height: 40px;
+		margin: 0 auto;
+		padding: 10px;
+		}
+													
+	.software_download_select {
+		font-family: "Regular"; font-size: 15px; color: #333333;
+		line-height: 40px;
+		width: 160px;
+		height: 40px;
+		background-color: #dddddd;
+		padding-left: 10px;
+		float: right;
+		cursor: pointer;
+		}
+															
+	.software_download_select:focus {
+		outline: none;
+		}
+															
+	.software_download_search_box {
+		font-family: "Regular"; font-size: 15px; color: #999999;
+		width: 300px;
+		height: 34px;
+		text-indent: 10px;
+		float: right;
+		margin-left: 10px;
+		border: 2px solid #009fe3;
+		}
+																	
+	.software_download_search_box:focus {
+		outline: none;
+		}
+
+														
+	.software_download_search_button {
+		width: 40px;
+		height: 40px;
+		float: right;
+		background-color: #009fe3;
+		cursor: pointer;
+		margin-right: -10px;
+			background-image: url("/portfolio/data/img/content/products/search_icon.png");
+			background-size: 21px 21px; 
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+																			
+	.software_download_board {
+		max-width: 1100px;
+		height: auto;
+		margin: 0 auto;
+		text-align: center;
+		}
+																			
+
+			
+	/*----------------------------------------board--------------------------------------*/
+			
+	.software_download_board_data {
+		width: 92%;
+		height: auto;
+		border-collapse: collapse;
+		font-size:15px;
+		display: inline-block;
+		margin-top: 10px;
+		}
+											
+	/*----------th-----------*/						
+			
+	.th {
+		font-family: "Regular";, Dotum; color:#545454; font-size:14px;
+		height: 50px;
+		border-bottom: 3px solid #009fe3;
+		}
+			
+	th {
+		font-family: "Regular";, Dotum; color:#545454; font-size:14px;
+		background-color: #e0e0e0;
+		}
+			
+	.th_1 {
+		min-width: 40px;
+		}
+			
+	.th_2 {
+		width: 770px;
+		}
+					
+					
+	.th_3 {
+		width: 150px;
+		}
+					
+											
+	.th_4 {
+		width:150px;
+		}
+								
+								
+								
+	/*----------tr-----------*/						
+			
+	tr {
+		text-align: center;
+		height: 60px;
+		border-bottom: 1px #dbdbdb solid;
+		background-color: white;
+		}
+				
+	.td_01, .td_02, .td_03, .td_04 { padding-top: 10px; padding-bottom: 10px;}
+	
+	.td_01 {
+		font-family: "Regular"; font-size: 14px; color: #333333;
+		text-align: left;
+		text-indent: 15px;
+		background-color: #f9f9f9;
+		}
+					
+	.td_02 {
+		font-family: "Regular"; font-size: 15px; color: #333333;
+		text-align: left;
+		padding-left: 25px;
+		padding-right: 25px;
+		}
+	
+	.td_02 span { cursor: pointer; }
+	.td_02 span a { color: #333333; }
+	.td_02 span:hover, .td_02 span a:hover { color: #009fe3; border-bottom: 1px solid #009fe3; }
+					
+	.td_03 {
+		font-family: "Regular"; font-size: 14px; color: #333333;
+		background-color: #f9f9f9;
+		padding-left: 5px;
+		padding-right: 5px;
+		}
+			
+			
+	.td_04 {
+		font-family: "Regular"; font-size: 14px; color: #333333;
+		padding-left: 5px;
+		padding-right: 5px;
+		}
+			
+
+			
+			
+			
+			
+			/*-------------------------------------------------------------페이지 넘버-----------------------------------------------------------*/
+			
+	.page_number_div {
+		max-width: 500px;
+		margin: 0 auto;
+		padding-top: 30px;
+		padding-bottom: 70px;
+		-ms-user-select: none; -moz-user-select: -moz-none; -webkit-user-select: none; -khtml -user-select: none; user-select:none;
+		}
+			
+	.page_number_div_div {
+		margin: 0 auto;
+		width: 340px;
+		height: 50px;
+		}
+												
+	.page_number_div_div > .page_number > span {
+		font-family: "Regular";, Dotum; color:#505050; font-size:13px;
+		line-height: 20px;
+		text-align: center;
+		width: auto;
+		height: 20px;
+		padding-left: 7px;
+		padding-right: 7px;
+		float: left;
+		border: 1px #aaaaaa solid;
+		background-color: #efefef;
+		margin-left: 10px;
+		border-radius: 3px;
+		cursor: pointer;
+		}
+															
+	.page_number_div_div > .page_number:hover > span  {
+		background-color: #cccccc;
+		color: #333333;
+		}
+													
+	.page_number_div_div > .page_number.cs > span {
+		background-color: #009fe3;
+		border: 1px #009fe3 solid;
+		color: white;
+		}
+																						
+																						
+											
+	.page_move {
+		font-family: "Regular";, Dotum; color:#505050; font-size:13px;
+		line-height: 20px;
+		text-align: center;
+		width: auto;
+		height: 20px;
+		padding-left: 7px;
+		padding-right: 7px;
+		float: left;
+		border: 1px #aaaaaa solid;
+		background-color: #efefef;
+		margin-left: 10px;
+		border-radius: 3px;
+		cursor: pointer;
+		}
+									
+	.page_move:hover {
+		background-color: #cccccc;
+		color: #333333;
+		}
+					
+	.page_move:active {
+		background-color: #a5a5a5;
+		color: #232323;
+		}
+				
+
+	.page_number_dot {
+		font-family:"Medium";, Dotum; color:#777777; font-size:14px;
+		float: left;	
+		margin-left: 7px;
+		margin-right: -4px;
+		}
+		
+	.page_number {
+		float: left;
+		}
+										
+										
+	/*---------------------------responsive-----------------------------*/
+
+	@media screen and (max-width:1100px){
+		.software_download_top { width: 88% }
+	}
+	
+	@media screen and (max-width:700px) {
+		.software_download_search_box  { width: 150px; }
+	}
+										
+										
+					
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
